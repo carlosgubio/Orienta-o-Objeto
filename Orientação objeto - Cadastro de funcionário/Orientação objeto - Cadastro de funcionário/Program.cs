@@ -9,28 +9,31 @@ namespace Orientação_objeto___Cadastro_de_funcionário
         public double Salario;
         public string DataAdmissao;
         public string Rg;
-        public bool AtivoNaEmpresa;
-      
-        
-       
-        
+        public bool Ativo;
 
-        
+        public void Demite(bool status)
+        {
+            this.Ativo = status;
+        }
+
+        public double Bonifica(double SalarioTotal)
+        {
+            return this.Salario += SalarioTotal;
+        }
+               
         public Funcionario(string nome, string departamento, double salario, string dataAdmissao,
-            string rg, bool ativoNaEmpresa)
+            string rg, bool ativo)
         {
             this.Nome = nome;
             this.Departamento = departamento;
             this.Salario = salario;
             this.DataAdmissao = dataAdmissao;
             this.Rg = rg;
-            this.AtivoNaEmpresa = ativoNaEmpresa;
+            this.Ativo = ativo;
+           
         }
 
-        public double Bonifica(double SalarioNovo)
-        {
-            return this.Salario += SalarioNovo;
-        }
+       
     }   
     class Program
     {
@@ -53,7 +56,7 @@ namespace Orientação_objeto___Cadastro_de_funcionário
             String Rg = Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine("Se o funcionário estiver ativo, digite 1, se não digite 2");
-            int AtivoNaEmpresa = Convert.ToInt32(Console.ReadLine());
+            int Ativo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
             Console.WriteLine("Valor a Bonificar:");
             double Bonifica = Convert.ToDouble(Console.ReadLine());
@@ -62,18 +65,19 @@ namespace Orientação_objeto___Cadastro_de_funcionário
 
             Funcionario Funcionario = new Funcionario(Nome, Departamento, Salario, DataAdmissao, Rg, ativo);
             
-            if (AtivoNaEmpresa == 1)
-                Console.WriteLine("Ativo.");
+            if (Ativo == 1)
+                Console.WriteLine("Ativo");
 
             Funcionario.Bonifica(Bonifica);
-            
+
             Console.WriteLine("Nome:" + Funcionario.Nome);
             Console.WriteLine("Departamento:" + Funcionario.Departamento);
             Console.WriteLine("Salário:" + Funcionario.Salario);
             Console.WriteLine("Data da Admissão:" + Funcionario.DataAdmissao);
             Console.WriteLine("RG nº:" + Funcionario.Rg);
             Console.WriteLine("O valor total do salário é R$:" + Funcionario.Salario);
-            Console.WriteLine("O funcionário está" + Funcionario.AtivoNaEmpresa);
+            
+           
         }
     }
 }
