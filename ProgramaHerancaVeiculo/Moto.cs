@@ -7,16 +7,14 @@ namespace ProgramaHerancaVeiculo
     public class Moto : Veiculo
     {
         public string Relacao { get; set; }
-        public string Paralama { get; set; }
         public string Manetes { get; set; }
-        public string PedalDePartida { get; set; }
+        public string TipoDePartida { get; set; }
         
-        public Moto(string relacao, string paralama, string manetes, string pedalDePartida)
+        public Moto(string relacao, string manetes, string tipoDePartida) :base()
         {
             this.Relacao = relacao;
-            this.Paralama = paralama;
             this.Manetes = manetes;
-            this.PedalDePartida = pedalDePartida;
+            this.TipoDePartida = tipoDePartida;
         }
 
 

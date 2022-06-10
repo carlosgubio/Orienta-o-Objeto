@@ -12,6 +12,10 @@ namespace ProgramaHerancaVeiculo
         public Marca Marca { get; set; }
         public string Preco { get; set; }
         public Motor Motor { get; set; }
+        public Veiculo()
+        {
+
+        }
 
         public Veiculo(string chassis, string ano, string preco)
         {
