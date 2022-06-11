@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orientação objeto - Cadas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramaHerancaVeiculo", "..\ProgramaHerancaVeiculo\ProgramaHerancaVeiculo.csproj", "{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro de Vendas", "..\Cadastro de Vendas\Cadastro de Vendas.csproj", "{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro de Vendas", "..\Cadastro de Vendas\Cadastro de Vendas.csproj", "{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venda com uso de List", "..\Venda com uso de List\Venda com uso de List.csproj", "{DA5C8AF5-6025-4652-AA79-FF1813B405D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
