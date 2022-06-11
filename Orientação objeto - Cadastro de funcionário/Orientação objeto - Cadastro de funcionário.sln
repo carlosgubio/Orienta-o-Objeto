@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orientação objeto - Cadastro de funcionário", "Orientação objeto - Cadastro de funcionário\Orientação objeto - Cadastro de funcionário.csproj", "{C4256227-F274-45A8-A1F6-3CD0A3559E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaHerancaVeiculo", "..\ProgramaHerancaVeiculo\ProgramaHerancaVeiculo.csproj", "{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramaHerancaVeiculo", "..\ProgramaHerancaVeiculo\ProgramaHerancaVeiculo.csproj", "{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro de Vendas", "..\Cadastro de Vendas\Cadastro de Vendas.csproj", "{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7984C327-757C-4F8F-B5A5-1C0BB8CA72F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

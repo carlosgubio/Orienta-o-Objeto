@@ -1,0 +1,14 @@
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.exe
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.deps.json
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.runtimeconfig.json
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.runtimeconfig.dev.json
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.dll
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\bin\Debug\netcoreapp3.1\Cadastro de Vendas.pdb
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.csproj.AssemblyReference.cache
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.AssemblyInfoInputs.cache
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.AssemblyInfo.cs
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.csproj.CoreCompileInputs.cache
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.dll
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.pdb
+C:\Users\carlos.moreira1\source\repos\Orientação Objeto\Cadastro de Vendas\obj\Debug\netcoreapp3.1\Cadastro de Vendas.genruntimeconfig.cache

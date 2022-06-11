@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\source\\repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj": {}
+    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\source\\repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj": {
+    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
         "projectName": "ProgramaHerancaVeiculo",
-        "projectPath": "C:\\Users\\Carlos\\source\\repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
-        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\source\\repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\obj\\",
+        "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
+        "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\ProgramaHerancaVeiculo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlos.moreira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

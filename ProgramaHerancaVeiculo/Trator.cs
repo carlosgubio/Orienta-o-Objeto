@@ -12,12 +12,9 @@ namespace ProgramaHerancaVeiculo
         public string TipoDeTracao { get; set; }
         public string TipoDeUso { get; set; }
         public string TipoDeCacamba { get; set; }
-        public Trator()
-        {
+        public Trator(){ }
 
-        }
-
-        public Trator(string tipoDeTracao, string tipoDeUso, string tipoDeCacamba):base()
+        public Trator(string tipoDeTracao, string tipoDeUso, string tipoDeCacamba, Modelo modelo, Marca marca, Motor motor)
         {
             this.TipoDeTracao = tipoDeTracao;
             this.TipoDeUso = tipoDeUso;

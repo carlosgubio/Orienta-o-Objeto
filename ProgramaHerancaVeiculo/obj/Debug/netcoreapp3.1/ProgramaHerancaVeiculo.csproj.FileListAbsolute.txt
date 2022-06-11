@@ -12,3 +12,17 @@ C:\Users\Carlos\source\repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debu
 C:\Users\Carlos\source\repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.dll
 C:\Users\Carlos\source\repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.pdb
 C:\Users\Carlos\source\repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.genruntimeconfig.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.exe
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.deps.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.runtimeconfig.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.runtimeconfig.dev.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.dll
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\bin\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.pdb
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.csproj.AssemblyReference.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.AssemblyInfoInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.AssemblyInfo.cs
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.csproj.CoreCompileInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.dll
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.pdb
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\ProgramaHerancaVeiculo\obj\Debug\netcoreapp3.1\ProgramaHerancaVeiculo.genruntimeconfig.cache
