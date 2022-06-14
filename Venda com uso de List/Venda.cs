@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Venda_com_uso_de_List
 {
-    class Venda
+    public class Venda
     {
         public List<Produto> ListaDeProdutos { get; set; } 
         public double ValorTotalVenda { get; set; }

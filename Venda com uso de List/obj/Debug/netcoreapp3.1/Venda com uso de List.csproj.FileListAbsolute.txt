@@ -12,3 +12,17 @@ C:\Users\Carlos\Source\Repos\Orientação Objeto ultimo\Venda com uso de List\ob
 C:\Users\Carlos\Source\Repos\Orientação Objeto ultimo\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.dll
 C:\Users\Carlos\Source\Repos\Orientação Objeto ultimo\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.pdb
 C:\Users\Carlos\Source\Repos\Orientação Objeto ultimo\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.genruntimeconfig.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.csproj.AssemblyReference.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.AssemblyInfoInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.AssemblyInfo.cs
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.csproj.CoreCompileInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.dll
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.pdb
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.exe
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.deps.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.runtimeconfig.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.runtimeconfig.dev.json
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.dll
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\bin\Debug\netcoreapp3.1\Venda com uso de List.pdb
+C:\Users\carlos.moreira1\Source\Repos\Orientação Objeto\Venda com uso de List\obj\Debug\netcoreapp3.1\Venda com uso de List.genruntimeconfig.cache
