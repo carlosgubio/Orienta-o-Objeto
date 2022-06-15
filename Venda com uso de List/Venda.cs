@@ -22,5 +22,6 @@ namespace Venda_com_uso_de_List
             this.Vendedor = vendedor;
             this.Cliente = cliente;
         }
+        
     }
 }

@@ -9,8 +9,8 @@ namespace Venda_com_uso_de_List
         CadastrarVendedor,
         CadastrarCliente,
         CadastrarProduto,
-        CriarUmaVenda,
         InserirProdutoNoCarrinho,
+        CriarUmaVenda,
         LimparCarrinho,
         FinalizarVenda
     }
@@ -104,24 +104,36 @@ namespace Venda_com_uso_de_List
                 string Marca = Convert.ToString(Console.ReadLine());
                 Console.WriteLine("Digite o preço do produto:");
                 double Preco = Convert.ToDouble(Console.ReadLine());
-
-
+            }
+            else if (tipoCadastro == TipoCadastro.InserirProdutoNoCarrinho)
+            {
+                int codigo = Convert.ToInt32(Console.ReadLine());
+                Produto produtoEncontrado = EncontrarProduto(produto, codigo);
+                carrinho.Produtos.Add(produtoEncontrado);
+                carrinho.Produtos = produto;
             }
             else if (tipoCadastro == TipoCadastro.CriarUmaVenda)
             {
-                venda = new Venda();
-                venda.ListaDeProdutos = carrinho.Produtos;
-                foreach (Produto p in produto)
+                //venda = new Venda();
+                //venda.ListaDeProdutos = carrinho.Produtos;
+                //Console.WriteLine(p.DescricaoDoProduto + " " + p.Marca + " R$ " + p.Preco);
+                //Console.WriteLine("Informe o número referente ao produto desejado:\n 0 - Arroz \n 1 - Feijão \n 2 - Macarrão \n 3 - Óleo \n 4 - Leite \n 5 - Açucar \n");
+                //Produtos produtos = (Produtos)Convert.ToInt32(Console.ReadLine());
+                //Console.WriteLine("Insira o código do produto:");
+                int codigoCliente = Convert.ToInt32(Console.ReadLine());
+                int codigoVendedor = Convert.ToInt32(Console.ReadLine());
+                Cliente cSelecionado = EncontrarClientes(cliente, codigoCliente);
+                Vendedor vSelecionado = EncontrarVendedor(vendedor, codigoVendedor);
+
+                if(cSelecionado != null && vSelecionado != null)
                 {
-                    Console.WriteLine(p.DescricaoDoProduto + " " + p.Marca + " R$ " + p.Preco);
-                    Console.WriteLine("Informe o número referente ao produto desejado:\n 0 - Arroz \n 1 - Feijão \n 2 - Macarrão \n 3 - Óleo \n 4 - Leite \n 5 - Açucar \n");
-                    //Produtos produtos = (Produtos)Convert.ToInt32(Console.ReadLine());
-                    //Console.WriteLine("Insira o código do produto:");
-                    int codigo = Convert.ToInt32(Console.ReadLine());
-                    Produto produtoEncontrado = EncontrarProduto(produto, codigo);
-                    carrinho.Produtos.Add(produtoEncontrado);
+                    venda = new Venda(cSelecionado, vSelecionado);
+                    if(carrinho.Produtos)
                 }
-                
+                int codigo = Convert.ToInt32(Console.ReadLine());
+                Produto produtoEncontrado = EncontrarProduto(produto, codigo);
+                carrinho.Produtos.Add(produtoEncontrado);
+                carrinho.Produtos = produto;
             }
             else if (tipoCadastro == TipoCadastro.LimparCarrinho)
             {

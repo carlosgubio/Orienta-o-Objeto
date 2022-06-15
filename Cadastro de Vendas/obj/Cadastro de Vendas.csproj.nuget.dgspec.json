@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\Cadastro de Vendas\\Cadastro de Vendas.csproj": {}
+    "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 14.06\\Cadastro de Vendas\\Cadastro de Vendas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\Cadastro de Vendas\\Cadastro de Vendas.csproj": {
+    "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 14.06\\Cadastro de Vendas\\Cadastro de Vendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 14.06\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
         "projectName": "Cadastro de Vendas",
-        "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
+        "projectPath": "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 14.06\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
         "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto\\Cadastro de Vendas\\obj\\",
+        "outputPath": "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 14.06\\Cadastro de Vendas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
