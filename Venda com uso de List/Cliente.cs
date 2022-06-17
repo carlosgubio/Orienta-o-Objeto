@@ -13,6 +13,7 @@ namespace Venda_com_uso_de_List
 
         public Cliente() { }
 
+
         public Cliente(int codigo, string nome, double cpf, string endereco)
         {
             this.Codigo = codigo;

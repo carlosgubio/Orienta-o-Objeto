@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace Venda_com_uso_de_List
 {
@@ -16,6 +16,15 @@ namespace Venda_com_uso_de_List
     }
     class Program
     {
+        static List<Produto> CopiarProdutosParaOutraLista(List<Produto> produtos)
+        {
+            List<Produto> produtosCopia = new List<Produto>();
+            foreach (Produto p in produtos)
+            {
+                produtosCopia.Add(new Produto(p.Codigo, p.DescricaoDoProduto, p.Marca, p.Preco));
+            }
+            return produtosCopia;
+        }
         static Produto EncontrarProduto(List<Produto> produtos, int codigo)
         {
             Produto produto = null;
@@ -54,7 +63,7 @@ namespace Venda_com_uso_de_List
         }
         static void Main(string[] args)
         {
-            bool Finalizada = true;
+            
 
             List<Vendedor> vendedor = new List<Vendedor>();
             List<Cliente> cliente = new List<Cliente>();
@@ -63,6 +72,9 @@ namespace Venda_com_uso_de_List
             CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
             List<Produto> produto = new List<Produto>();
             carrinho.Produtos.Add(new Produto());
+            Venda vendaAtual = new Venda();
+            Cliente clienteAtual = new Cliente();
+            Vendedor vendedorAtual = new Vendedor();
 
 
 
@@ -76,8 +88,9 @@ namespace Venda_com_uso_de_List
             produto.Add(new Produto(3,"Óleo", "Lagoano", 4.50));
             produto.Add(new Produto(4,"Leite", "LAgoano", 4.80));
             produto.Add(new Produto(5,"Açúcar", "Lagoano", 5.30));
+           
 
-            Console.WriteLine("Informe a opção desejada:\n 0 - Cadastrar um Vendedor \n 1 - Cadastrar um Cliente \n 2 - Cadastrar um Produto \n 3 - Criar uma Venda \n 4 - Inserir Produtos no Carrinho \n 5 - Limpar Carrinho \n 6 - Finalizar Venda");
+            Console.WriteLine("Informe a opção desejada:\n 0 - Cadastrar um Vendedor \n 1 - Cadastrar um Cliente \n 2 - Cadastrar um Produto \n 3 - Inserir Produtos no Carrinho \n 4 - Criar uma Venda \n 5 - Limpar Carrinho \n 6 - Finalizar Venda");
             TipoCadastro tipoCadastro = (TipoCadastro)Convert.ToInt32(Console.ReadLine());
 
             if (tipoCadastro == TipoCadastro.CadastrarVendedor)
@@ -108,9 +121,14 @@ namespace Venda_com_uso_de_List
             else if (tipoCadastro == TipoCadastro.InserirProdutoNoCarrinho)
             {
                 int codigo = Convert.ToInt32(Console.ReadLine());
-                Produto produtoEncontrado = EncontrarProduto(produto, codigo);
-                carrinho.Produtos.Add(produtoEncontrado);
+                Produto produtoSelecionado = EncontrarProduto(produto, codigo);
+                carrinho.Produtos.Add(produtoSelecionado);
                 carrinho.Produtos = produto;
+                if(produtoSelecionado != null)
+                {
+                    carrinho.Produtos.Add(new Produto(produtoSelecionado.Codigo, produtoSelecionado.DescricaoDoProduto, produtoSelecionado.Marca, produtoSelecionado.Preco));
+                    Console.WriteLine("Produto adicionado ao carrinho.");
+                }
             }
             else if (tipoCadastro == TipoCadastro.CriarUmaVenda)
             {
@@ -125,15 +143,20 @@ namespace Venda_com_uso_de_List
                 Cliente cSelecionado = EncontrarClientes(cliente, codigoCliente);
                 Vendedor vSelecionado = EncontrarVendedor(vendedor, codigoVendedor);
 
-                if(cSelecionado != null && vSelecionado != null)
+               if(cSelecionado != null && vSelecionado != null)
                 {
-                    venda = new Venda(cSelecionado, vSelecionado);
-                    if(carrinho.Produtos)
+                    vendaAtual.Cliente = cSelecionado;
+                    vendaAtual.Vendedor = vSelecionado;
+                    if(carrinho.Produtos !=null && carrinho.Produtos.Any())
+                    {
+                        vendaAtual.ListaDeProdutos = carrinho.Produtos;
+                    }
                 }
-                int codigo = Convert.ToInt32(Console.ReadLine());
-                Produto produtoEncontrado = EncontrarProduto(produto, codigo);
-                carrinho.Produtos.Add(produtoEncontrado);
-                carrinho.Produtos = produto;
+                
+                //int codigo = Convert.ToInt32(Console.ReadLine());
+                //Produto produtoEncontrado = EncontrarProduto(produto, codigo);
+                //carrinho.Produtos.Add(produtoEncontrado);
+                //carrinho.Produtos = produto;
             }
             else if (tipoCadastro == TipoCadastro.LimparCarrinho)
             {
@@ -142,8 +165,12 @@ namespace Venda_com_uso_de_List
             }
             else if (tipoCadastro == TipoCadastro.FinalizarVenda)
             {
-                Console.WriteLine("Venda Finalizada?:" + Finalizada);
-                string FinalizarVenda = Convert.ToString(Console.ReadLine());
+                vendaAtual.ListaDeProdutos = CopiarProdutosParaOutraLista(carrinho.Produtos);
+                vendaAtual.Cliente = new Cliente(clienteAtual.Codigo, clienteAtual.Nome, clienteAtual.CPF, clienteAtual.Endereco);
+                vendaAtual.Vendedor = new Vendedor(vendedorAtual.Codigo, vendedorAtual.Nome, vendedorAtual.CodigoCracha);
+                vendaAtual.Finalizada = true;
+                vendas.Add(new Venda());
+                Console.WriteLine("Venda finalizada.");
             }
         }
     }

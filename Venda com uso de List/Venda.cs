@@ -6,6 +6,9 @@ namespace Venda_com_uso_de_List
 {
     public class Venda
     {
+        internal bool Finalizada;
+
+        public int Codigo { get; set; }
         public List<Produto> ListaDeProdutos { get; set; } 
         public double ValorTotalVenda { get; set; }
         public bool StatusDaVenda { get; set; }
@@ -14,8 +17,9 @@ namespace Venda_com_uso_de_List
 
         public Venda() { }
 
-        public Venda(List<Produto> listaDeProdutos, double valorTotalVenda, bool statusDaVenda, Vendedor vendedor, Cliente cliente)
+        public Venda(int codigo, List<Produto> listaDeProdutos, double valorTotalVenda, bool statusDaVenda, Vendedor vendedor, Cliente cliente)
         {
+            this.Codigo = codigo;
             this.ListaDeProdutos = listaDeProdutos;
             this.ValorTotalVenda = valorTotalVenda;
             this.StatusDaVenda = statusDaVenda;
