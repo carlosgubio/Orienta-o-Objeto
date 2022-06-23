@@ -32,6 +32,7 @@ namespace Venda_com_uso_de_List
                 Console.WriteLine($"Descrição: {cliente.Nome}");
                 Console.WriteLine($"Marca: {cliente.CPF}");
                 Console.WriteLine($"Marca: {cliente.Endereco}");
+                Console.WriteLine($"Marca: {cliente.Codigo}");
             }
         }
     }

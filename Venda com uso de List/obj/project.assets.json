@@ -1,26 +1,50 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Lista de Produtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Lista de Produtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lista de Produtos.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Lista de Produtos/1.0.0": {
+      "type": "project",
+      "path": "../Orientação objeto - Cadastro de funcionário/Lista de Produtos/Lista de Produtos.csproj",
+      "msbuildProject": "../Orientação objeto - Cadastro de funcionário/Lista de Produtos/Lista de Produtos.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Lista de Produtos >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
+    "C:\\Users\\carlos.moreira1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
+      "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
       "projectName": "Venda com uso de List",
-      "projectPath": "C:\\Users\\Carlos\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\obj\\",
+      "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
+      "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Venda com uso de List\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\carlos.moreira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +57,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj": {
+              "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -55,6 +83,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.25, 3.1.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

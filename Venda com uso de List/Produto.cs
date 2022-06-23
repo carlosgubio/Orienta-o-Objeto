@@ -24,13 +24,14 @@ namespace Venda_com_uso_de_List
         {
             return $" {this.Codigo} {this.DescricaoDoProduto} {this.Marca}  {this.Preco}";
         }
-        static void ListarProdutos(List<Produto> produtos)
+        public static void ListarProdutos(List<Produto> produtos)
         {
             foreach (Produto produto in produtos)
             {
                 Console.WriteLine($"Descrição: {produto.DescricaoDoProduto}");
                 Console.WriteLine($"Marca: {produto.Marca}");
                 Console.WriteLine($"Preço: {produto.Preco}");
+                Console.WriteLine($"Codigo {produto.Codigo}");
             }
         }
     }

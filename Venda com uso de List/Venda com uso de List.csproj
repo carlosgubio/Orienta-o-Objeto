@@ -6,4 +6,8 @@
     <RootNamespace>Venda_com_uso_de_List</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Orientação objeto - Cadastro de funcionário\Lista de Produtos\Lista de Produtos.csproj" />
+  </ItemGroup>
+
 </Project>

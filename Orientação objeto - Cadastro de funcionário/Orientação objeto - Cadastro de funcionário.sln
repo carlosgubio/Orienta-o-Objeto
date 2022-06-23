@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramaHerancaVeiculo", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro de Vendas", "..\Cadastro de Vendas\Cadastro de Vendas.csproj", "{9239138E-F0CD-43A0-ABA7-BD15DA35B0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venda com uso de List", "..\Venda com uso de List\Venda com uso de List.csproj", "{DA5C8AF5-6025-4652-AA79-FF1813B405D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venda com uso de List", "..\Venda com uso de List\Venda com uso de List.csproj", "{DA5C8AF5-6025-4652-AA79-FF1813B405D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista de Produtos", "Lista de Produtos\Lista de Produtos.csproj", "{B93146AA-F60F-416A-9E2C-D315D923FC9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5C8AF5-6025-4652-AA79-FF1813B405D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93146AA-F60F-416A-9E2C-D315D923FC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93146AA-F60F-416A-9E2C-D315D923FC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93146AA-F60F-416A-9E2C-D315D923FC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93146AA-F60F-416A-9E2C-D315D923FC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
