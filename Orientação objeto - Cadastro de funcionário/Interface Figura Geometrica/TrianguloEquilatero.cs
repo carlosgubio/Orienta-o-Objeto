@@ -13,7 +13,13 @@ namespace Interface_Figura_Geometrica
                 return ComprimentoLado * ComprimentoLado / 2; 
             }
         }
-        public int NumeroTotalDeLados { get; set; } = 3;
+        public int NumeroTotalDeLados
+        {
+            get
+            {
+                return 3;
+            }
+        }
         public double Perimetro 
         { 
             get
@@ -24,5 +30,3 @@ namespace Interface_Figura_Geometrica
         public double ComprimentoLado { get; set; }
     }
 }
-//area = base * altura/2
-//perimetro = 3 * lados

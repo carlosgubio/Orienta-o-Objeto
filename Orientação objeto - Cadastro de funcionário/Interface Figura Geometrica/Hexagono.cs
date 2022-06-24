@@ -15,12 +15,18 @@ namespace Interface_Figura_Geometrica
                 return Math.Round(3 * Raiz * AoQuadrado / 2, 2);
             }
         }
-        public int NumeroTotalDeLados { get; set; } = 6;
+        public int NumeroTotalDeLados
+        {
+            get
+            {
+                return 6;
+            }
+        }
         public double Perimetro
         {
             get
             {
-                return 1; 
+                return ComprimentoLado * 6; 
             }
         }
         public double ComprimentoLado { get; set; }

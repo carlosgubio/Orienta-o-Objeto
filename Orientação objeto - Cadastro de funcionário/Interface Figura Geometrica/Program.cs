@@ -6,8 +6,28 @@ namespace Interface_Figura_Geometrica
     {
         static void Main(string[] args)
         {
-            Hexagono hexagono = new Hexagono() { ComprimentoLado = 9 };
-            Console.WriteLine(hexagono.CalcularArea);
+            IFiguraGeometrica trianguloEquilatero = new TrianguloEquilatero() 
+            { 
+                ComprimentoLado = 5,
+            };
+            IFiguraGeometrica quadrado = new Quadrado()
+            {
+                ComprimentoLado = 6,
+            };
+            IFiguraGeometrica pentagono = new Pentagono()
+            {
+
+                ComprimentoLado = 3,
+            };
+            IFiguraGeometrica hexagono = new Hexagono()
+            {
+                ComprimentoLado = 7,
+            };
+
+            Console.WriteLine("A área do Triangulo Equilátero é: " + trianguloEquilatero.CalcularArea + " cm");
+            Console.WriteLine("A área do Quadrado é: " + quadrado.CalcularArea + " cm");
+            Console.WriteLine("A área do Pentágono é: " + pentagono.CalcularArea + " cm");
+            Console.WriteLine("A área do Hexágono é: " + hexagono.CalcularArea + " cm");
         }
     }
 }

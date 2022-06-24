@@ -14,7 +14,13 @@ namespace Interface_Figura_Geometrica
             }
                 
         }
-        public int NumeroTotalDeLados { get; set; } = 4;
+        public int NumeroTotalDeLados
+        {
+            get
+            {
+                return 4;
+            }
+        }
         public double Perimetro
         {
             get
