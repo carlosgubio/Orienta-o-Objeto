@@ -4,23 +4,20 @@ using System.Text;
 
 namespace Lista_de_Produtos
 {
-    public class Produto
+    public interface IProduto
     {
-        public string Marca { get; set; }
+
         public string Descricao { get; set; }
+        public string Marca { get; set; }
         public double ValorEmReal { get; set; }
-        public double ValorMoedaOrigem { get; set; }
+        public double ValorMoedaOrigem { get;  }
+
         public string PaisDeOrigem { get; set; }
 
-        public Produto() { }
-
-        public Produto(string marca, string descricao, double valorEmReal, double valorMoedaOrigem, string paisDeOrigem)
+        public string ToString()
         {
-            this.Marca = marca;
-            this.Descricao = descricao;
-            this.ValorEmReal = valorEmReal;
-            this.ValorMoedaOrigem = valorMoedaOrigem;
-            this.PaisDeOrigem = paisDeOrigem;
+            return $"Descrição: {Descricao}, Marca: {Marca}, Valor {ValorEmReal}, Valor de Origem {ValorMoedaOrigem}";
         }
+
     }
 }

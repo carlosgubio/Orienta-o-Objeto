@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YhYHa4B7P6e4iVuskADJeJ4x+wonlizP+ASYaTY0qk1TDjzEp3OKJ3B4E0n4f/Gyu/bTZdZWU4zhqfSKV9CRcA==",
+  "dgSpecHash": "FXEXsXb4Z+nOpIO0D08l2BFvo6CM3dnpWOkHfbIZhKCQjvHDaTOPd7iouW8RCrP5/S55WT98YvCS1m+RIKjG6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orienta-o-Objeto\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
+  "projectFilePath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 23.06\\Cadastro de Vendas\\Cadastro de Vendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlos.moreira1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],

@@ -1,11 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Venda_com_uso_de_List
 {
     public class Venda
     {
+        public double ValorTotal
+        {
+            get
+            {
+                double total = 0;
+                if (Produto != null && Produto.Any())
+                {
+                    foreach (Produto p in Produto)
+                    {
+                        total += p.Preco;
+                    }
+                }
+                return total;
+            }
         internal bool Finalizada;
 
         public int Codigo { get; set; }
