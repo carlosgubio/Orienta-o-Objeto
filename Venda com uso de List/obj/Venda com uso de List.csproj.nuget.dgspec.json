@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Venda com uso de List\\Venda com uso de List.csproj": {}
+    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Venda com uso de List\\Venda com uso de List.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj": {
+    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj",
         "projectName": "Lista de Produtos",
-        "projectPath": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\obj\\",
+        "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj",
+        "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlos.moreira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,26 +53,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Venda com uso de List\\Venda com uso de List.csproj": {
+    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Venda com uso de List\\Venda com uso de List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Venda com uso de List\\Venda com uso de List.csproj",
         "projectName": "Venda com uso de List",
-        "projectPath": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Venda com uso de List\\Venda com uso de List.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Venda com uso de List\\obj\\",
+        "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Venda com uso de List\\Venda com uso de List.csproj",
+        "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Venda com uso de List\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlos.moreira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj": {
-                "projectPath": "C:\\Users\\carlo\\Source\\Repos\\Orientação Objeto\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj"
+              "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj": {
+                "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientação Objeto 24.06\\Orientação objeto - Cadastro de funcionário\\Lista de Produtos\\Lista de Produtos.csproj"
               }
             }
           }
@@ -107,12 +121,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

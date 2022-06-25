@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venda com uso de List", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista de Produtos", "Lista de Produtos\Lista de Produtos.csproj", "{B93146AA-F60F-416A-9E2C-D315D923FC9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Figura Geometrica", "Interface Figura Geometrica\Interface Figura Geometrica.csproj", "{3F089C2C-507B-41E1-AE8F-B77A9624A7EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface Figura Geometrica", "Interface Figura Geometrica\Interface Figura Geometrica.csproj", "{3F089C2C-507B-41E1-AE8F-B77A9624A7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface tipo animal", "..\Interface tipo animal\Interface tipo animal.csproj", "{532A8165-5B9F-44F2-B958-F98698FA5E06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3F089C2C-507B-41E1-AE8F-B77A9624A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F089C2C-507B-41E1-AE8F-B77A9624A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F089C2C-507B-41E1-AE8F-B77A9624A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532A8165-5B9F-44F2-B958-F98698FA5E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532A8165-5B9F-44F2-B958-F98698FA5E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532A8165-5B9F-44F2-B958-F98698FA5E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532A8165-5B9F-44F2-B958-F98698FA5E06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

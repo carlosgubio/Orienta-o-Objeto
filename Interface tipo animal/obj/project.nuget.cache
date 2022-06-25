@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tODz/s8eETXJK+tGRVf7/HH7FTH1hr+8dpv0A8KA3Yy3zRkc1kQQ02ve06zGh2RHqefJxIr5TssqgzA1CmgW4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlos.moreira1\\source\\repos\\Orientação Objeto 24.06\\Interface tipo animal\\Interface tipo animal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlos.moreira1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
