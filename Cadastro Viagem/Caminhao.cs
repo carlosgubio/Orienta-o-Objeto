@@ -6,6 +6,7 @@ namespace Cadastro_Viagem
 {
     public class Caminhao
     {
+        public int BaseId { get; set; } = 0;
         public string Modelo { get; set; }
         public string Placa { get; set; }
         public int IdCaminhao { get; set; }
@@ -14,12 +15,9 @@ namespace Cadastro_Viagem
         {
             this.Modelo = modelo;
             this.Placa = placa;
-            this.IdCaminhao = id;
+            this.IdCaminhao = BaseId;
+            BaseId++;
         }
         public Caminhao() { }
-        public override string ToString() =>
-
-            $"Modelo: {Modelo} | Placa: {Placa} | Id do Caminhão: {IdCaminhao}";
-        
     }
 }

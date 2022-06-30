@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLKG4jhdTKdy41G12PXgQ5CiKMrJEEvgKj1WaCIX51blPeEXCXQHmC2qj59sNRfvOSK/zaQizKJLheUGP7qTbw==",
+  "dgSpecHash": "nDOtTUo4dLZ2bUh33EMtb3BBNlr/1EoXiOBfI6F+KfcZn6PmlteURXHFubO3Itml4e+XkSkk+9QSfZ5+h/2L1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\carlos.moreira1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\ProgramaHerancaVeiculo\\ProgramaHerancaVeiculo.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

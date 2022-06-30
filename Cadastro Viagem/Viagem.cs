@@ -19,5 +19,6 @@ namespace Cadastro_Viagem
         {
             IdViagem = idViagem;
         }
+        public Viagem() { }
     }
 }

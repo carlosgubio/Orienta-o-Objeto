@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+qgQQii09ouP/HSGQ01oLmPsxxbDLiQX2vO3wb11WP1LeUyxK+Q/4RM600kEm2zuXJQY41hp7FdgoK/pK8oww==",
+  "dgSpecHash": "6bXWi4l+IZP6VvPoHNBYtBvXU9H3eZEXVUy8MADG5mDzpZJ+HvYscfv9a+oyMQ/eW8ZFLthjAho9OYgAJNb6dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Venda com uso de List\\Venda com uso de List.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\carlos.moreira1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Venda com uso de List\\Venda com uso de List.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

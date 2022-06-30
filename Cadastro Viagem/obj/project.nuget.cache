@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACk7EHYT0q+Ptnlr9ccvzFhbOsiXXWiBqgQRg++QlcGXtoZ9SGv2thkw4eo+lsai3eXVZNlX3vCVhtW+EH3WoQ==",
+  "dgSpecHash": "78QKSJVBSwmq1l/4bgFcUMuNQ1Qde6l0SvtZAWn22AnHlNDeWGAc5TMemrkVP6HGxc8pLxA2cDNXz44Epa1Fdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\carlos.moreira1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

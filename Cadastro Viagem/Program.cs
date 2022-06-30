@@ -4,13 +4,6 @@ using System.Linq;
 
 namespace Cadastro_Viagem
 {
-    enum Cadastro
-    {
-        Caminhao,
-        Motorista,
-        Viagem,
-        sair
-    }
     enum OpcoesCadastrais
     {
         CadastrarMotorista,
@@ -27,9 +20,22 @@ namespace Cadastro_Viagem
 
     public class Program
     {
-        List<Caminhao> caminhoes = new List<Caminhao>();
+        static List<Caminhao> caminhoes = new List<Caminhao>();
         static List<Motorista> motoristas = new List<Motorista>();
-        List<Viagem> viagens = new List<Viagem>();
+        static List<Viagem> viagens = new List<Viagem>();
+
+        static Motorista EncontrarMotorista(List<Motorista> motoristas, int id)
+        {
+            return motoristas.SingleOrDefault(x => x.IdMotorista == id);
+        }
+        static Caminhao EncontrarCaminhao(List<Caminhao> caminhoes, int id)
+        {
+            return caminhoes.SingleOrDefault(x => x.IdCaminhao == id);
+        }
+        static Viagem EncontrarViagem(List<Viagem> viagens, int id)
+        {
+            return viagens.SingleOrDefault(x => x.IdViagem == id);
+        }
 
 
         static void Main(string[] args)
@@ -52,51 +58,134 @@ namespace Cadastro_Viagem
                         motorista.End = Console.ReadLine();
                         motoristas.Add(motorista);
                         break;
-                         case OpcoesCadastrais.AtualizarMotorista:
+                    case OpcoesCadastrais.AtualizarMotorista:
                         Console.WriteLine("Informe o Id do motorista");
-                        int id = Convert.ToInt32(Console.ReadLine());
-                        Motorista mot
-                    
-                                               
+                        int idMotoristaAtualizar = Convert.ToInt32(Console.ReadLine());
+                        Motorista MotoristaAtualizar = EncontrarMotorista(motoristas, idMotoristaAtualizar);
+                        if (MotoristaAtualizar != null)
+                        {
+                            Console.WriteLine("Informe o nome do motorista");
+                            MotoristaAtualizar.Nome = Console.ReadLine();
+                            Console.WriteLine("Informe o endereço do motorista");
+                            MotoristaAtualizar.End = Console.ReadLine();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Motorista não encontrado.");
+                        }
+                        break;
+                    case OpcoesCadastrais.RemoverMotorista:
+                        Console.WriteLine("informe o Id do motorista");
+                        int idMotoristaRemover = Convert.ToInt32(Console.ReadLine());
+                        Motorista motoristaRemover = EncontrarMotorista(motoristas, idMotoristaRemover);
+                        if(motoristaRemover != null)
+                        {
+                            motoristas.Remove(motoristaRemover);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Motorista removido.");
+                        }
+                        break;
+
+                    case OpcoesCadastrais.CadastrarCaminhao:
+                        Caminhao caminhao = new Caminhao();
+                        Console.WriteLine("Informe a marca do caminhão");
+                        caminhao.Modelo = Console.ReadLine();
+                        Console.WriteLine("Informe a placa do caminhão");
+                        caminhao.Placa = Console.ReadLine();
+                        caminhoes.Add(caminhao);
+                        break;
+                    case OpcoesCadastrais.AtualizarCaminhao:
+                        Console.WriteLine("Informe o Id do caminhão");
+                        int idCaminhaoAtualizar = Convert.ToInt32(Console.ReadLine());
+                        Caminhao caminhaoatualizar = EncontrarCaminhao(caminhoes, idCaminhaoAtualizar);
+                        if (caminhaoatualizar != null)
+                        {
+                            Console.WriteLine("Informe o modelo do caminhão");
+                            caminhaoatualizar.Modelo = Console.ReadLine();
+                            Console.WriteLine("Informe a placa do caminhão");
+                            caminhaoatualizar.Placa = Console.ReadLine();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Caminhão não encontrado.");
+                        }
+                        break;
+                    case OpcoesCadastrais.RemoverCaminhao:
+                        Console.WriteLine("informe o Id do motorista");
+                        int idCaminhaoRemover = Convert.ToInt32(Console.ReadLine());
+                        Caminhao caminhaoRemover = EncontrarCaminhao(caminhoes, idCaminhaoRemover);
+                        if (caminhaoRemover != null)
+                        {
+                            caminhoes.Remove(caminhaoRemover);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Caminhão removido.");
+                        }
+                        break;
+
+                    case OpcoesCadastrais.CadastrarViagem:
+                        Viagem viagem = new Viagem();
+                        Console.WriteLine("Informe o Id do motorista");
+                        int idMotoristaViagem = Convert.ToInt32(Console.ReadLine());
+                        Motorista motoristaViagem = EncontrarMotorista(motoristas, idMotoristaViagem);
+                        if (motoristaViagem != null)
+                        {
+                            Console.WriteLine("Motorista não encontrado.");
+                            break;
+                        }
+                        
+                        Console.WriteLine("informe o Id do caminhão");
+                        int idCaminhaoViagem = Convert.ToInt32(Console.ReadLine());
+                        Caminhao caminhaoViagem = EncontrarCaminhao(caminhoes, idCaminhaoViagem);
+                        if (caminhaoViagem != null)
+                        {
+                            Console.WriteLine("Caminhão não encontrado.");
+                            break;
+                        }
+                        
+                        viagem.Caminhao = caminhaoViagem;
+                        viagem.Motorista = motoristaViagem;
+                        viagens.Add(viagem);
+                        break;
+
+                    case OpcoesCadastrais.AtualizarViagem:
+                        Console.WriteLine("Informe o Id da viagem.");
+                        int idViagemAtualizar = Convert.ToInt32(Console.ReadLine());
+                        Viagem viagemAtualizar = EncontrarViagem(viagens, idViagemAtualizar);
+                        if (viagemAtualizar != null)
+                        {
+                            Console.WriteLine("Informe o Id do novo motorista");
+                            int idMotoristaNovoViagem = Convert.ToInt32(Console.ReadLine());
+                            Motorista motoristaNovoViagem = EncontrarMotorista(motoristas, idMotoristaNovoViagem);
+                            if (motoristaNovoViagem != null)
+                            {
+                                Console.WriteLine("Motorista não encontrado.");
+                                break;
+                            }
+                            Console.WriteLine("informe o Id do caminhão.");
+                            int idCaminhaoNovoViagem = Convert.ToInt32(Console.ReadLine());
+                            Caminhao caminhaoNovoViagem = EncontrarCaminhao(caminhoes, idCaminhaoNovoViagem);
+                            if (caminhaoNovoViagem != null)
+                            {
+                                Console.WriteLine("Caminhão não encontrado.");
+                                break;
+                            }
+                            viagemAtualizar.Caminhao = caminhaoNovoViagem;
+                            viagemAtualizar.Motorista = motoristaNovoViagem;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Viagem não encontrada.");
+                        }
+                        break;
+                    case OpcoesCadastrais.RemoverViagem:
                         break;
                 }
-
-
-                //if (opcaoCadastral == OpcoesCadastrais.Caminhao)
-                //{
-
-                //    Console.WriteLine("Insira a opção desejada: \n 0 - Cadastrar \n 1 - Atualizar \n 2 - Remover \n 3 - Menu Cadastro");
-                //    OpcoesCadastrais opcoesCadastrais = (OpcoesCadastrais)Convert.ToInt32(Console.ReadLine());
-
-                //    Console.WriteLine("Modelo do Caminhão:");
-                //    string Modelo = Console.ReadLine();
-                //    Console.WriteLine("Placa do Caminhão:");
-                //    string Placa = Console.ReadLine();
-                //    Console.WriteLine("Id do Caminhão:");
-                //    int IdCaminhao = Convert.ToInt32(Console.ReadLine());
-                //    Caminhao caminhao = new Caminhao(Modelo, Placa, IdCaminhao);
-                //    caminhoes.Add(caminhao);
-
-                //}
-                //else if (cadastro == Cadastro.Motorista)
-                //{
-                //    Console.WriteLine("Nome do Motorista:");
-                //    string Nome = Console.ReadLine();
-                //    Console.WriteLine("Endereço do Motorista:");
-                //    string End = Console.ReadLine();
-                //    Console.WriteLine("Id do Motorista:");
-                //    int IdMotorista = Convert.ToInt32(Console.ReadLine());
-                //    Motorista motorista = new Motorista(Nome, End, IdMotorista);
-                //    motoristas.Add(motorista);
-                //}
-                //else if (cadastro == Cadastro.Viagem)
-                //{
-                //    Console.WriteLine("Qual o Caminhão:");
-                //    string Caminhao = Console.ReadLine();
-                //    Console.WriteLine("Nome do Motorista:");
-                //    string Motorista = Console.ReadLine();
-                //    Console.WriteLine("Id da Viagem:");
-                //    int IdViagem = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Insira o tipo cadastro desejado: \n 0 - CadastrarMotorista \n 1 - AtualizarMotorista \n 2 - RemoverMotorista \n 3 - CadastrarCaminhao \n 4 - AtualizarCaminhao \n 5 - Remover Caminhão \n 6 - CadastrarViagem \n 7 - AtualizarViagem \n 8 - RemoverViagem \n 9 - Sair");
+                opcaoCadastral = (OpcoesCadastrais)Convert.ToInt32(Console.ReadLine());
             }
         }
     }

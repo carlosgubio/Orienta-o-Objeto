@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\Cadastro Viagem.csproj": {}
+    "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\Cadastro Viagem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\Cadastro Viagem.csproj": {
+    "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\Cadastro Viagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
         "projectName": "Cadastro Viagem",
-        "projectPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
-        "packagesPath": "C:\\Users\\carlos.moreira1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.moreira1\\Source\\Repos\\Orientacao Objeto 29.06\\Cadastro Viagem\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\Cadastro Viagem.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Source\\Repos\\Orientacao Objeto 30.06\\Cadastro Viagem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\carlos.moreira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,18 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.25, 3.1.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }
