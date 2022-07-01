@@ -26,3 +26,17 @@ C:\Users\carlo\Source\Repos\Orientacao Objeto 30.06\Cadastro Viagem\obj\Debug\ne
 C:\Users\carlo\Source\Repos\Orientacao Objeto 30.06\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.dll
 C:\Users\carlo\Source\Repos\Orientacao Objeto 30.06\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.pdb
 C:\Users\carlo\Source\Repos\Orientacao Objeto 30.06\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.genruntimeconfig.cache
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.exe
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.deps.json
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.runtimeconfig.json
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.runtimeconfig.dev.json
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.dll
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\bin\Debug\netcoreapp3.1\Cadastro Viagem.pdb
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.csproj.AssemblyReference.cache
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.AssemblyInfoInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.AssemblyInfo.cs
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.csproj.CoreCompileInputs.cache
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.dll
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.pdb
+C:\Users\carlos.moreira1\Source\Repos\OrientacaoObjeto\Cadastro Viagem\obj\Debug\netcoreapp3.1\Cadastro Viagem.genruntimeconfig.cache

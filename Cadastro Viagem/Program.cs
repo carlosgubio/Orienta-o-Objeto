@@ -36,7 +36,20 @@ namespace Cadastro_Viagem
         {
             return viagens.SingleOrDefault(x => x.IdViagem == id);
         }
-
+        static void MostrarViagem(List<Viagem> viagens)
+        {
+            foreach (Viagem v in viagens)
+            {
+                Console.WriteLine("Segue dados da viagem:");
+                Console.WriteLine("Id da Viagem: " + v.IdViagem);
+                Console.WriteLine("Id do Motorista:" + v.Motorista.IdMotorista);
+                Console.WriteLine("Nome do Motorista:" + v.Motorista.Nome);
+                Console.WriteLine("Endereço do Motorista:" + v.Motorista.End);
+                Console.WriteLine("Id do Caminhão:" + v.Caminhao.IdCaminhao);
+                Console.WriteLine("Modelo do Caminhão:" + v.Caminhao.Modelo);
+                Console.WriteLine("Placa do Caminhão:" + v.Caminhao.Placa);
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -131,7 +144,7 @@ namespace Cadastro_Viagem
                         Console.WriteLine("Informe o Id do motorista");
                         int idMotoristaViagem = Convert.ToInt32(Console.ReadLine());
                         Motorista motoristaViagem = EncontrarMotorista(motoristas, idMotoristaViagem);
-                        if (motoristaViagem != null)
+                        if (motoristaViagem == null)
                         {
                             Console.WriteLine("Motorista não encontrado.");
                             break;
@@ -140,7 +153,7 @@ namespace Cadastro_Viagem
                         Console.WriteLine("informe o Id do caminhão");
                         int idCaminhaoViagem = Convert.ToInt32(Console.ReadLine());
                         Caminhao caminhaoViagem = EncontrarCaminhao(caminhoes, idCaminhaoViagem);
-                        if (caminhaoViagem != null)
+                        if (caminhaoViagem == null)
                         {
                             Console.WriteLine("Caminhão não encontrado.");
                             break;
@@ -182,11 +195,23 @@ namespace Cadastro_Viagem
                         }
                         break;
                     case OpcoesCadastrais.RemoverViagem:
-                        break;
+                        Console.WriteLine("informe o Id da viagem");
+                        int idViagemCancelar = Convert.ToInt32(Console.ReadLine());
+                        Viagem viagemCancelar = EncontrarViagem(viagens, idViagemCancelar);
+                        if (viagemCancelar == null)
+                        {
+                            viagens.Remove(viagemCancelar);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Viagem cancelada.");
+                        }
+                            break;
                 }
                 Console.WriteLine("Insira o tipo cadastro desejado: \n 0 - CadastrarMotorista \n 1 - AtualizarMotorista \n 2 - RemoverMotorista \n 3 - CadastrarCaminhao \n 4 - AtualizarCaminhao \n 5 - Remover Caminhão \n 6 - CadastrarViagem \n 7 - AtualizarViagem \n 8 - RemoverViagem \n 9 - Sair");
                 opcaoCadastral = (OpcoesCadastrais)Convert.ToInt32(Console.ReadLine());
             }
+            MostrarViagem(viagens);
         }
     }
 }
